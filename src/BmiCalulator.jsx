@@ -52,7 +52,7 @@ export default function BmiCalculator () {
 
         <div className=' flex flex-col justify-center items-center h-[100vh]'>
            
-            <div className=' border-[2px] border-black w-[450px] h-[450px] flex flex-col rounded-lg'>
+            <div className=' border-[2px] border-black w-96 h-[450px] flex flex-col rounded-lg'>
                <h1 className=' text-center font-medium  text-[35px] pt-2'>BMI Calulator</h1>
                <form onSubmit={onSubmit}>
                 <div className=' flex flex-col w-72 gap-5 mb-5 m-auto pt-4'>
